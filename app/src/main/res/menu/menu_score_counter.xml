@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ScoreCounter">
+    <item android:id="@+id/opt_settings" android:title="@string/opt_settings"
+        android:orderInCategory="100" app:showAsAction="never">
+        <menu>
+        <group android:checkableBehavior="single" >
+        <item android:id="@+id/opt_sub1_30"
+            android:title="@string/opt_sub1_30"
+            android:orderInCategory="100"
+            android:checked="true"
+            android:showAsAction="never" />
+
+        <item android:id="@+id/opt_sub2_25"
+            android:title="@string/opt_sub2_25"
+            android:orderInCategory="100"
+            android:showAsAction="never"/>
+
+        <item android:id="@+id/opt_sub3_20"
+            android:title="@string/opt_sub3_20"
+            android:orderInCategory="100"
+            android:showAsAction="never" />
+        <item android:id="@+id/opt_sub4_15"
+            android:title="@string/opt_sub4_15"
+            android:orderInCategory="100"
+            android:showAsAction="never" />
+        </group>
+        </menu>
+    </item>
+    <item android:id="@+id/action_quit" android:title="@string/action_quit"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

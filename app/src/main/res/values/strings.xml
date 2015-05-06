@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">槌球計分器 V1</string>
+    <string name="opt_settings">設定</string>
+    <string name="opt_sub1_30">-30分計數-</string>
+    <string name="opt_sub2_25">-25分計數-</string>
+    <string name="opt_sub3_20">-20分計數-</string>
+    <string name="opt_sub4_15">-15分計數-</string>
+
+    <string name="action_quit">離開</string>
+    <string name="sc_tbl">計分表</string>
+    <string name="timer">剩餘時間</string>
+    <string name="tmr_toggle">開始|暫停</string>
+    <string name="tmr_start">!!開始計數</string>
+    <string name="tmr_stop">暫停計數!!</string>
+</resources>
